@@ -6,6 +6,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -53,6 +54,39 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="k1i-Nb-1VA" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1028" y="150.67466266866569"/>
+        </scene>
+        <!--Memory View Controller-->
+        <scene sceneID="bhf-5j-80q">
+            <objects>
+                <viewController storyboardIdentifier="MemoryVC" id="uJN-e4-5aZ" customClass="MemoryViewController" customModule="Memorizer" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="2HR-CN-asw">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="ZkN-qv-iQ4">
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="ZkN-qv-iQ4" firstAttribute="leading" secondItem="98Y-Wr-ndl" secondAttribute="leading" id="LGa-m5-Th8"/>
+                            <constraint firstItem="ZkN-qv-iQ4" firstAttribute="top" secondItem="98Y-Wr-ndl" secondAttribute="top" id="WpW-VK-PeN"/>
+                            <constraint firstItem="98Y-Wr-ndl" firstAttribute="bottom" secondItem="ZkN-qv-iQ4" secondAttribute="bottom" id="dlh-Ii-CSz"/>
+                            <constraint firstItem="98Y-Wr-ndl" firstAttribute="trailing" secondItem="ZkN-qv-iQ4" secondAttribute="trailing" id="gva-GI-mkg"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="98Y-Wr-ndl"/>
+                    </view>
+                    <connections>
+                        <outlet property="textView" destination="ZkN-qv-iQ4" id="vBb-WF-uM5"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SNg-Cq-EBa" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1825" y="151"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="WPB-A2-hr0">
