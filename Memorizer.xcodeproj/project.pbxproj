@@ -12,6 +12,7 @@
 		D7EDFCE621E61199003AC4F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7EDFCE421E61199003AC4F2 /* Main.storyboard */; };
 		D7EDFCE821E6119A003AC4F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7EDFCE721E6119A003AC4F2 /* Assets.xcassets */; };
 		D7EDFCEB21E6119A003AC4F2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7EDFCE921E6119A003AC4F2 /* LaunchScreen.storyboard */; };
+		D7EDFCF321E612A5003AC4F2 /* MemoryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7EDFCF221E612A5003AC4F2 /* MemoryItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		D7EDFCE721E6119A003AC4F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D7EDFCEA21E6119A003AC4F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D7EDFCEC21E6119A003AC4F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7EDFCF221E612A5003AC4F2 /* MemoryItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				D7EDFCE021E61199003AC4F2 /* AppDelegate.swift */,
 				D7EDFCE221E61199003AC4F2 /* ViewController.swift */,
 				D7EDFCE421E61199003AC4F2 /* Main.storyboard */,
+				D7EDFCF221E612A5003AC4F2 /* MemoryItem.swift */,
 				D7EDFCE721E6119A003AC4F2 /* Assets.xcassets */,
 				D7EDFCE921E6119A003AC4F2 /* LaunchScreen.storyboard */,
 				D7EDFCEC21E6119A003AC4F2 /* Info.plist */,
@@ -137,6 +140,7 @@
 			files = (
 				D7EDFCE321E61199003AC4F2 /* ViewController.swift in Sources */,
 				D7EDFCE121E61199003AC4F2 /* AppDelegate.swift in Sources */,
+				D7EDFCF321E612A5003AC4F2 /* MemoryItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
