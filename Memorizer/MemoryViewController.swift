@@ -57,7 +57,7 @@ class MemoryViewController: UIViewController {
         if ".,".contains(word.last!) {
           punctuation = String(strippedWord.removeLast())
         }
-
+        
         let attributedWord = NSAttributedString(string: strippedWord, attributes: invisibleText)
         output.append(attributedWord)
         

@@ -9,9 +9,10 @@
 import UIKit
 
 class MemoryDataSource: NSObject, UITableViewDataSource {
+  
   var items = [MemoryItem]()
   
-  //MARK:- Parsing tje JSON ------------------------------------------------
+  //MARK:- Parsing the JSON ------------------------------------------------
   override init() {
     
     // Getting the JSON file from our bundle and assigning it to a constant
